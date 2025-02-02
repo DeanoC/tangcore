@@ -1,5 +1,5 @@
 {
-	"Files": [
+	"Latest": [
 		{"Sha1": "fdc779c150a624f9303b80392baa6f1cf338cc16", "Filename": "firmware_20250131.bin"},
 		{"Sha1": "cbc9f3189701250e411e0d5d20b7a1cafced1b9a", "Filename": "gbatang_console60k_ds2_20250202.bin"},
 		{"Sha1": "c0f3f38051e1c2a599b0cdb82872384acda9b15a", "Filename": "gbatang_console60k_ds2_20250202.fs"},
@@ -12,29 +12,9 @@
 		{"Sha1": "313a5a3022a02b0b6dbe247b4950089907cd6d60", "Filename": "snestang_console60k_snes_20250131.bin"},
 		{"Sha1": "8b3d9856dee945fd688e90075b1edf5447e094e6", "Filename": "snestang_console60k_snes_20250131.fs"}
 	],
-	"Latest": "20250202",
 	"Configs": [
 		"console60k_ds2",
 		"console60k_snes"
-	],
-	"Releases": [
-		{
-			"Name": "20250202",
-			"Description": "Initial TangCores preview release. This release is intended for developers and testers only.",
-			"Files": [
-				"firmware_20250131.bin",
-				"gbatang_console60k_ds2_20250202.bin",
-				"gbatang_console60k_ds2_20250202.fs",
-				"mdtang_console60k_ds2_20250131.bin",
-				"mdtang_console60k_ds2_20250131.fs",
-				"nestang_console60k_ds2_20250131.bin",
-				"nestang_console60k_ds2_20250131.fs",
-				"snestang_console60k_ds2_20250131.bin",
-				"snestang_console60k_ds2_20250131.fs",
-				"snestang_console60k_snes_20250131.bin",
-				"snestang_console60k_snes_20250131.fs"
-			]
-		}
 	]
 }
 
