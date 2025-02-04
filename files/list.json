@@ -1,20 +1,19 @@
 {
 	"Latest": [
-		{"Sha1": "fdc779c150a624f9303b80392baa6f1cf338cc16", "Filename": "firmware_20250131.bin"},
-		{"Sha1": "cbc9f3189701250e411e0d5d20b7a1cafced1b9a", "Filename": "gbatang_console60k_ds2_20250202.bin"},
-		{"Sha1": "c0f3f38051e1c2a599b0cdb82872384acda9b15a", "Filename": "gbatang_console60k_ds2_20250202.fs"},
-		{"Sha1": "54fb9fce4d738f342f11db726f6ba42173c77ff9", "Filename": "mdtang_console60k_ds2_20250131.bin"},
-		{"Sha1": "45bf1177489b198706abd1404ec90a9d1215d92a", "Filename": "mdtang_console60k_ds2_20250131.fs"},
-		{"Sha1": "f01d7661152bde5e023fbd1aeec44eaf3a658e58", "Filename": "nestang_console60k_ds2_20250131.bin"},
-		{"Sha1": "6229a0f974bbfa64dcf072d8e56e3982c653d5b5", "Filename": "nestang_console60k_ds2_20250131.fs"},
-		{"Sha1": "651194b353bf355aa38fbc604982ba20f9208de1", "Filename": "snestang_console60k_ds2_20250131.bin"},
-		{"Sha1": "8d03249b3a2138f8bbfb7bf57d6f4ef1b67ae5d0", "Filename": "snestang_console60k_ds2_20250131.fs"},
-		{"Sha1": "313a5a3022a02b0b6dbe247b4950089907cd6d60", "Filename": "snestang_console60k_snes_20250131.bin"},
-		{"Sha1": "8b3d9856dee945fd688e90075b1edf5447e094e6", "Filename": "snestang_console60k_snes_20250131.fs"}
+		{"Sha1": "fdc779c150a624f9303b80392baa6f1cf338cc16", "Filename": "firmware_250131.bin"},
+		{"Sha1": "cbc9f3189701250e411e0d5d20b7a1cafced1b9a", "Filename": "gbatang_console60_ds2_250202.bin"},
+		{"Sha1": "c0f3f38051e1c2a599b0cdb82872384acda9b15a", "Filename": "gbatang_console60_ds2_250202.fs"},
+		{"Sha1": "54fb9fce4d738f342f11db726f6ba42173c77ff9", "Filename": "mdtang_console60_ds2_250131.bin"},
+		{"Sha1": "45bf1177489b198706abd1404ec90a9d1215d92a", "Filename": "mdtang_console60_ds2_250131.fs"},
+		{"Sha1": "f01d7661152bde5e023fbd1aeec44eaf3a658e58", "Filename": "nestang_console60_ds2_250131.bin"},
+		{"Sha1": "6229a0f974bbfa64dcf072d8e56e3982c653d5b5", "Filename": "nestang_console60_ds2_250131.fs"},
+		{"Sha1": "651194b353bf355aa38fbc604982ba20f9208de1", "Filename": "snestang_console60_ds2_250131.bin"},
+		{"Sha1": "8d03249b3a2138f8bbfb7bf57d6f4ef1b67ae5d0", "Filename": "snestang_console60_ds2_250131.fs"},
+		{"Sha1": "313a5a3022a02b0b6dbe247b4950089907cd6d60", "Filename": "snestang_console60_snes_250131.bin"},
+		{"Sha1": "8b3d9856dee945fd688e90075b1edf5447e094e6", "Filename": "snestang_console60_snes_250131.fs"}
 	],
 	"Configs": [
-		"console60k_ds2",
-		"console60k_snes"
+		"console60_ds2",
+		"console60_snes"
 	]
 }
-
