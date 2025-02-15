@@ -1,4 +1,4 @@
-## Tangcores development setup
+## Tangcores development setup (draft)
 
 Tangcores uses a different approach to development than nestang/snestang. Here's a comparison of the two:
 
