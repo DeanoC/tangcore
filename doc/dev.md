@@ -30,7 +30,7 @@ Debug connection:
 
 ## Developing a core
 
-NESTang can be used as a template for developing gaming cores for Tang Console. Here're the minimal set of parts that a core should have so it can be loaded by the TangCore template:
+[NESTang](https://github.com/nand2mario/nestang) can be used as a template for developing gaming cores for Tang Console. Here're the minimal set of parts that a core should have so it can be loaded by the TangCore template:
 
 * `src/somecore_top.v`: the core top source file. As nestang_top.v shows, it should contains the machine-specific components, a HDMI display module and `iosys_bl616`, which is an interface over UART to the BL616 MCU.
 * `src/hdmi/*`: HDMI display components
@@ -66,6 +66,7 @@ The BL616 MCU acts as the master in UART communication. It sends commands in the
 Messages from FPGA to BL616:
 
 | Response | Description |
+|-----|-----|
 | 0x01 joy1[7:0] joy1[15:8] joy2[7:0] joy2[15:8]|     Every 20ms, send joypad state|
 |0x11 core_id[7:0]|send core ID|
 |0x22 <string>|send null-terminated core config string|
