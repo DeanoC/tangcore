@@ -41,12 +41,12 @@ Debug connection:
 The other older io system module is `iosys_picorv32.v`. It uses a risc-v softcore running inside the FPGA to act as the IO processor. New cores should use `iosys_bl616`, the newer module.
 
 If you open `iosys_bl616.v`, you will see that it provides a few useful pins,
-* `overlay*`: these are signals for the "on-screen display" (OSD). It outputs a 256x224 image. When `overlay==1` (controlled by the MCU), it will be shown on screen.
+* `overlay*`: these are signals for the "on-screen display" (OSD). It outputs a 256x224 image. When `overlay==1` (controlled by the MCU), it will be shown on screen. Note that `overlay*` run in the `hclk` (HDMI clock) domain, the rest of the signals run in `clk` domain.
 * `joy*`: inputs to iosys. These joypad button states will be sent periodically to MCU to control the overlay menu.
 * `rom_*`: When MCU starts ROM loading through the UART interface, data is output through these pins to the actual core.
 * `uart_*`: UART signal pads. These are the main interface between the core and the MCU.
 
-The [hdl-util/HDMI](https://github.com/hdl-util/hdmi) interface should run in 720p mode. Please refer to nestang.v and the module author's documentation for how to use it.
+The [hdl-util/HDMI](https://github.com/hdl-util/hdmi) interface should run in 720p mode. Please refer to nestang_top.v and the HDMI module author's documentation for how to use it.
 
 ## UART protocol
 
