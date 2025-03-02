@@ -26,7 +26,7 @@ The end user does not need the SOM connector for debugging. Otherwise the seutp 
 
 Debug connection:
 * We use the Sipeed RV-debugger dongle to connect the FPGA to PC.
-* The FPGA SOM debug port has the following pinout (from top to bottom): GND, BL616_RX, BL616_TX, TDI, TCK, TDO, TMS, 5V0. We connect the TDI, TCK, TDO, TMS pins to the RV-debugger. The RX/TX UART pins are not used for debugging, as they are already used for internal communication between the BL616 and the FPGA.
+* The FPGA SOM debug port has the following pinout (from top to bottom): GND, BL616_RX, BL616_TX, TDI, TCK, TDO, TMS, 5V0. We connect the TDI, TCK, TDO, TMS pins to the RV-debugger. BL616_TX carries commands from BL616 to FPGA, including rom data, overlay display updates and etc. BL616_RX carries responses from FPGA back to BL616, including joypad updates. The protocol is described below. The current baud rate is 2000000 bps. I have a python script decoding these messages for debugging.
 
 ## Developing a core
 
@@ -36,7 +36,7 @@ Debug connection:
 * `src/hdmi/*`: HDMI display components
 * `src/iosys/iosys_bl616.v`: the interface (referred to as "IO system") over UART to the BL616 MCU.
 * `src/iosys/textdisp.v`: 32x28 text mode display to show the overlay text
-* `src/iosys/uart_fractional.v`: the UART TX/RX modules
+* `src/iosys/uart_fixed.v`: the UART TX/RX modules
 
 The other older io system module is `iosys_picorv32.v`. It uses a risc-v softcore running inside the FPGA to act as the IO processor. New cores should use `iosys_bl616`, the newer module.
 
