@@ -1,3 +1,4 @@
-# TangCore - FPGA gaming cores for Sipeed Tang Console
+# TangCore - FPGA gaming distribution for Sipeed Tang
 
 WIP. No working releases yet.
+  
