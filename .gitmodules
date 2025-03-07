@@ -1,0 +1,15 @@
+[submodule "firmware-bl616"]
+	path = firmware-bl616
+	url = https://github.com/nand2mario/firmware-bl616
+[submodule "nestang"]
+	path = nestang
+	url = https://github.com/nand2mario/nestang
+[submodule "snestang"]
+	path = snestang
+	url = https://github.com/nand2mario/snestang
+[submodule "gbatang"]
+	path = gbatang
+	url = https://github.com/nand2mario/gbatang
+[submodule "mdtang"]
+	path = mdtang
+	url = https://github.com/nand2mario/mdtang
