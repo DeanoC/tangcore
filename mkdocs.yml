@@ -75,6 +75,7 @@ nav:
     - Architecture: dev-guide/architecture.md
     - Building: dev-guide/building.md
     - Core Development: dev-guide/core-development.md
+    - Core Debugging: dev-guide/core-debugging.md
 
 markdown_extensions:
   - admonition
