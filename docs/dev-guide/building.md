@@ -11,7 +11,7 @@ Here's how to build the TangCore distribution, including the firmware, the monit
 ```batch
 mkdir \Gowin\dev
 cd \Gowin\dev
-git clone --recursive git@github.com:nand2mario/tangcore.git
+git clone --recursive https://github.com/nand2mario/tangcore.git
 cd tangcore
 git clone --recursive https://github.com/harbaum/bouffalo_sdk.git
 git clone https://github.com/bouffalolab/toolchain_gcc_t-head_windows.git

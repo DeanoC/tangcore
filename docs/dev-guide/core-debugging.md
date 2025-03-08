@@ -6,7 +6,7 @@ Gowin FPGA debugging is mostly done through Gowin Analyzer Oscilloscope (GAO) ov
 
 ![](som-debug.jpg)
 
-Here we use the 8-pin debug wire (provided by Sipeed with their boards), and Sipeed RV Debugger to connect JTAG and UART (BL616_UART_TX to the RV debugger's RX pin).
+Here we use the 8-pin debug wire (provided by Sipeed with their boards), and Sipeed RV Debugger dongle (available on Sipeed store) to connect JTAG and UART (BL616_UART_TX to the RV debugger's RX pin).
 
 This way we can use Gowin Analyzer Oscilloscope to debug our gateware as normal. You can also put the debugging bitstream (`ao_0.bin`) on the USB drive and use TangCore menu to program it if you need to.
 
@@ -53,9 +53,9 @@ Version: Mar  7 2025<get_core_id>
 <overlay_state:b'\x01'>
 ```
 
-So it is helpful in checking what is happening. 
+In addition to the text messages. Those in brackets (`<get_core_id>`) are commands sent to the FPGA, as listed in the protocol description next section. So this `printf`-style debugging is helpful in checking what is happening in realtime.
 
-You can also watch the traffic the other way (FPGA to MCU) over the other pin (BL616_UART_RX) with `python liveuart.py -f <com_port>`. It contains mostly joypad status updates and responses to other commands from the MCU.
+You can also watch the traffic the other way (FPGA to MCU) on the other pin (BL616_UART_RX) with `python liveuart.py -f <com_port>`. It contains mostly joypad status updates and responses to other commands from the MCU.
 
 ## UART Protocol
 
