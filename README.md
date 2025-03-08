@@ -1,5 +1,11 @@
 # TangCore - FPGA Gaming Distribution for Sipeed Tang
 
+<p align="right">
+  <a title="Documentation" href="https://nand2mario.github.io/tangcore"><img src="https://img.shields.io/website.svg?label=nand2mario.github.io%2Ftangcore&longCache=true&style=flat-square&url=http%3A%2F%2Fnand2mario.github.io%2Ftangcore%2F&logo=GitHub"></a><!--
+  -->
+  <a title="Releases" href="https://github.com/nand2mario/tangcore/releases"><img src="https://img.shields.io/github/commits-since/nand2mario/tangcore/latest.svg?longCache=true&style=flat-square&logo=git&logoColor=fff"></a>
+</p>
+
 TangCore is a comprehensive FPGA gaming distribution that brings classic gaming systems to Sipeed Tang FPGA boards. It combines multiple high-quality gaming cores into a single package with an easy-to-use menu system.
 
 ## 🎮 Supported Systems
