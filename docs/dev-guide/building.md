@@ -34,9 +34,11 @@ make             # build for one board
 ```batch
 cd tangcore\nestang
 buildall         # build for all boards
+
+# the same for snestang, gbatang, mdtang and monitor
 ```
 
-## Collect build results
+## Collect building results
 
 ```batch
 cd tangcore
