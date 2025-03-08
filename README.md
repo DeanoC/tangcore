@@ -47,7 +47,7 @@ TangCore is a comprehensive FPGA gaming distribution that brings classic gaming 
 
 ## 🚀 Quick Start
 
-For detailed setup instructions, please refer to our [Installation Guide](doc/tangcore_install.md). Here's a quick overview:
+For detailed setup instructions, please refer to our [Installation Guide](https://nand2mario.github.io/tangcore/user-guide/installation/). Here's a quick overview:
 
 1. Download the latest [TangCore release](https://github.com/nand2mario/tangcore/releases)
 2. Flash the firmware using Bouffalo Lab Dev Cube
@@ -63,7 +63,7 @@ TangCore uses a different architecture compared to individual cores (NESTang/SNE
 - USB storage support
 - SOM-connector debugging interface
 
-For detailed development information, see our [Developer Guide](doc/dev.md).
+For detailed development information, see an introduction to [TangCore archtecture](https://nand2mario.github.io/tangcore/dev-guide/architecture/), [building from sources](https://nand2mario.github.io/tangcore/dev-guide/building/), how to [developing a new core](https://nand2mario.github.io/tangcore/dev-guide/core-development/), and [core debugging guide](https://nand2mario.github.io/tangcore/dev-guide/core-debugging/).
 
 ## 📝 License
 
