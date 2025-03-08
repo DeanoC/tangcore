@@ -74,16 +74,6 @@
 
 ---
 
-## 🚨 Troubleshooting
-
-| Symptom                | Quick Fix                                  | Or you can try                |
-|------------------------|--------------------------------------------|-------------------------------|
-| No video output        | Check HDMI connection → Verify TV input    | Test with alternate display   |
-| USB not recognized     | Reformat drive in FAT32 or exFAT           | Try different OTG adapter     |
-| GBA core failure       | Verify BIOS presence → Check MD5 hash      | Test with known-good ROM      |
-| Random freezes         | Use 2A power supply → Remove peripherals   | Check SDRAM module            |
-| Controller unresponsive| Check DS2 PMOD connection                  | Test with wired gamepad       |
-
 ---
 
 [Report Issue](https://github.com/nand2mario/tangcore/issues)
