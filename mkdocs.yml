@@ -1,0 +1,105 @@
+site_name: TangCore Documentation
+site_description: Documentation for TangCore FPGA Gaming Distribution
+repo_url: https://github.com/nand2mario/tangcore
+repo_name: nand2mario/tangcore
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: deep purple
+      accent: purple
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: deep purple
+      accent: purple
+    
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: deep purple
+      accent: purple
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  icon:
+    repo: fontawesome/brands/github
+    
+  # Custom admonitions with gaming-themed icons
+  custom_admonitions:
+    - name: game
+      icon: material/gamepad-variant
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nand2mario/tangcore
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nand2mario
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Installation: user-guide/installation.md
+    - Troubleshooting: user-guide/troubleshooting.md
+  - Developer Guide:
+    - Architecture: dev-guide/architecture.md
+    - Building: dev-guide/building.md
+    - Core Development: dev-guide/core-development.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.details
+
+plugins:
+  - search
+  - tags 
