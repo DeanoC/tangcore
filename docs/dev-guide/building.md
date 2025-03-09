@@ -13,7 +13,7 @@ mkdir \Gowin\dev
 cd \Gowin\dev
 git clone --recursive https://github.com/nand2mario/tangcore.git
 cd tangcore
-git clone --recursive https://github.com/harbaum/bouffalo_sdk.git
+git clone --recurse-submodules https://github.com/vossstef/bouffalo_sdk.git
 git clone https://github.com/bouffalolab/toolchain_gcc_t-head_windows.git
 ```
 * Add the following dirs to path: `toolchain_gcc_t-head_windows\bin`, `bouffalo_sdk\tools\make`, `bouffalo_sdk\tools\cmake\bin`, `bouffalo_sdk\tools\ninja`
