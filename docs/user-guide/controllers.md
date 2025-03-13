@@ -6,8 +6,8 @@ Here are some test results for controllers.
 
 | Controller | Status | Photo |
 |-----|-----|-----|
-| DualShock 2 or compatible | ✅ Fully working (requires DS2 PMOD adapter) | <img src="gamepad_ds2.jpg" width=100> |
-| Sipeed SNES-style USB Controller | ✅ Fully working | <img src="gamepad_snes.jpg" width=100> |
+| DualShock 2 or compatible | ✅ Fully working (requires DS2 PMOD adapter) | ![](gamepad_ds2.jpg){: style="width:150px"} |
+| Sipeed SNES-style USB Controller | ✅ Fully working | ![](gamepad_snes.jpg){: style="width:150px"} |
 | 8BitDo SN30 Pro Wired Controller | ✅ Fully working | ![](gamepad_sn30pro.jpg){: style="width:150px"} |
 | 8BitDo Wireless USB Adapter | ✅ Fully working (XInput mode only) | ![](gamepad_8bitdo_adapter.jpg){: style="width:150px"} |
 

@@ -20,6 +20,8 @@ git clone https://github.com/bouffalolab/toolchain_gcc_t-head_windows.git
 
 ## Build the firmware
 
+First, obtain Sipeed **official firmware** [here](https://dl.sipeed.com/shareURL/TANG/Console/09_MCU_FW) and save in `tangcore\firmware-bl616`.
+
 ```batch
 cd tangcore\firmware-bl616
 
