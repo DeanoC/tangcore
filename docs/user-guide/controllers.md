@@ -1,6 +1,6 @@
 # Game Controllers
 
-TangCore 0.7 supports several types of game controllers including Dualshock 2 (DS2), USB HID, and USB Xinput devices. Controller compatibility will continue to improve with future updates. Note: To use USB controllers, you'll need a USB hub with at least 3 ports - one for the USB drive and two for controllers.
+TangCore supports several types of game controllers including Dualshock 2 (DS2), USB HID, and USB Xinput devices. Controller compatibility will continue to improve with future updates. Note: To use USB controllers, you'll need a USB hub with at least 3 ports - one for the USB drive and two for controllers.
 
 | Controller | Status | Photo |
 |-----|-----|-----|
