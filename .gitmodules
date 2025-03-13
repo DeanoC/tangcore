@@ -15,4 +15,4 @@
 	url = https://github.com/nand2mario/mdtang
 [submodule "monitor"]
 	path = monitor
-	url = git@github.com:nand2mario/monitorcore.git
+	url = https://github.com/nand2mario/monitorcore
