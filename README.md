@@ -17,21 +17,21 @@ TangCore is a comprehensive FPGA gaming distribution that brings classic gaming 
   <img src="doc/tangcore-genesis.png" width="300" />
 </div>
 
-- **[NESTang](nestang/)** - Nintendo Entertainment System
+- **[NESTang](https://github.com/nand2mario/nestang/)** - Nintendo Entertainment System
   - Cycle-accurate NES emulation
   - Extensive mapper support
   - 720p HDMI output
 
-- **[SNESTang](snestang/)** - Super Nintendo Entertainment System
+- **[SNESTang](https://github.com/nand2mario/snestang/)** - Super Nintendo Entertainment System
   - Support for LoROM, HiROM and ExHiROM
   - DSP-1/2/3/4, S-RTC, OBC-1 extension chips
 
-- **[GBATang](gbatang/)** - Game Boy Advance
+- **[GBATang](https://github.com/nand2mario/gbatang/)** - Game Boy Advance
   - High compatibility
   - Open source BIOS included
   - Full 32MB gamepak support
 
-- **[MDTang](mdtang/)** - Sega Genesis/Mega Drive
+- **[MDTang](https://github.com/nand2mario/mdtang/)** - Sega Genesis/Mega Drive
   - Accurate Genesis/Mega Drive emulation
 
 ## 💻 Supported Hardware
